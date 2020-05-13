@@ -1,4 +1,4 @@
 Select 
-'ORDERID' as order_id, 
-'amount' as amount
+"orderID" as order_id, 
+amount as amount
 from "RAW"."STRIPE"."PAYMENT"
