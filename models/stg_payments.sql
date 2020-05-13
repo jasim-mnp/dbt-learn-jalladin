@@ -1,4 +1,5 @@
 Select 
 "orderID" as order_id, 
-amount as amount
+sum(amount) as amount
 from "RAW"."STRIPE"."PAYMENT"
+group by "orderID"
